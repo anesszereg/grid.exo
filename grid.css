@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 20px;
+    display: grid;
+    grid-gap: 20px;
+    
+
+}
+.q1 b{
+    font-size: 30px;
+    background-color: turquoise;
+    margin-top: 50px;
+    
+}
+.up {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 30px;
+    
+}   
+
+.q1{
+    height: 400px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: plum;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    background-image: url(./images/images/taco.jpg);
+    background-position: center;
+    padding: 110px;
+
+}
+h2{
+    width: 150px;
+    background-color: turquoise;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.q2{
+    text-align: center;
+    padding: 40px;
+    background-color: powderblue;
+    font-size: 30px;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    
+   
+
+
+}
+.q3{ 
+    
+    text-align: center;
+    padding: 40px;
+    background-color: powderblue;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    font-size: 30px;
+    
+
+}
+
+
+
+
+.item{
+    font-size: 30px;
+    background-color: powderblue;
+    
+    overflow: hidden;
+    text-align: center;
+    font-size: 35px;
+    
+}
+.center1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px;
+    margin-top: 20px
+   
+    
+}
+.cais{
+    background-color: white;
+    text-align: center;
+    padding: 30px;  
+    height: 130px;
+    box-shadow: 0 0 20px #aaa;
+}
+.cais:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.center{
+    display: flex;    
+}
+.right{
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 30px;
+
+}
+
+button{
+    background-color: rgb(255, 166, 0);
+    height: 50px;
+    width: 200px;
+    border: none;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h1 {
+    width: 70%;
+    margin: .7em auto;
+    overflow: hidden;
+    text-align: center;
+    font-weight:300;
+    color: rgb(0, 0, 0);
+}
+h1:before, h1:after {
+    content: "";
+    display: inline-block;
+    width: 50%;
+    margin: 0 .5em 0 -55%;
+    vertical-align: middle;
+    border-bottom: 10px solid;
+    color: powderblue;
+}
+
+h1:after {
+    margin: 0 -55% 0 .5em;
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.down{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 5px;
+}
+
+i{
+    font-size: 40px;
+}
+
+.fa-wine-glass-alt{
+    color: rgb(128, 0, 70);
+}
+
+.fa-music  {
+    color: blueviolet;
+}
